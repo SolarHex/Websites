@@ -1,0 +1,590 @@
+
+@font-face {
+    font-family: 'Bodoni_Moda' ;
+    src: url('./font/Bodoni_Moda/BodoniModa-Italic-VariableFont_opsz\,wght.ttf')
+}
+
+@font-face {
+    font-family: 'TenorSans' ;
+    src: url('./font/TenorSans/TenorSans-Regular.ttf')
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.abs{position: absolute;}
+.bodoni{ font-family: 'Bodoni_Moda' ;}
+.TenorSans{ font-family: 'TenorSans';}
+
+nav {
+    position: absolute;
+    width: 390px;
+    height: 70px;
+
+    background: #E7EAEF;
+}
+
+.bar {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    margin: 8px 10px;
+
+}
+
+.brand {
+    width: 100px;
+    height: 50px;
+    margin: 5px 70px;
+}
+
+.searcher {
+    height: 25px;
+    width: 25px;
+    margin: -35px 300px;
+}
+
+.cart {
+    height: 25px;
+    width: 25px;
+    margin: -35px 340px;
+}
+
+.first-pic {
+    position: absolute;
+    width: 390px;
+    height: 600px;
+    margin: 70px 0;
+    visibility: visible;
+}
+
+.second-pic {
+    position: absolute;
+    width: 390px;
+    height: 600px;
+    margin: 70px 0;
+    visibility: hidden;
+}
+
+.third-pic {
+    position: absolute;
+    width: 390px;
+    height: 600px;
+    margin: 70px 0;
+    visibility: hidden;
+
+}
+
+.new {
+    text-transform: uppercase;
+    font-size: 24px;
+    margin: 700px 100px;
+}
+
+.line {
+    width: 190px;
+    margin: 730px 100px;
+    border: 0.5px solid black;
+    background-color: black;
+}
+
+.new-1 {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 750px 40px;
+}
+
+
+
+.apparel {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 750px 95px;
+}
+
+.dress {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 750px 180px;
+}
+
+.tshirt {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 750px 250px;
+}
+
+.bag {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 750px 325px;
+}
+
+.cardican {
+    width: 160px;
+    height: 210px;
+    margin: 790px 30px;
+    cursor:pointer;
+    visibility: visible;
+}
+
+.apparel-link {
+    width: 160px;
+    height: 210px;
+    margin: 790px 30px;
+    cursor:pointer;
+    visibility: hidden;
+
+}
+
+.apparel2-link {
+    width: 160px;
+    height: 210px;
+    cursor:pointer;
+    margin: 790px 210px;
+    visibility: hidden;
+
+}
+
+.orange {
+    width: 160px;
+    height: 210px;
+    cursor:pointer;
+    margin: 790px 210px;
+    visibility: visible;
+
+}
+
+.cardigan-under {
+    font-size: 14px;
+    margin: 1010px 10px;
+    width: 195px;visibility: visible;
+    text-align: center;
+}
+
+.orange-under {
+    font-size: 14px;
+    margin: 1010px 192px;
+    width: 195px;
+    text-align: center;visibility: visible;
+}
+
+.cardigan-bucks {
+    font-size: 16px;
+    margin: 1050px 90px;
+    
+    color: #DD8560;visibility: visible;
+}
+
+.orange-bucks {
+    font-size: 16px;
+    margin: 1050px 270px;
+    visibility: visible;
+    color: #DD8560;
+}
+
+.grey {
+    width: 160px;
+    height: 210px;
+    cursor:pointer;
+    margin: 1080px 30px;
+    visibility: visible;
+}
+
+.baag {
+    width: 160px;
+    cursor:pointer;
+    visibility: visible;
+
+    height: 210px;
+    margin: 1080px 210px;
+}
+
+.apparel3-link {
+    width: 160px;
+    height: 210px;
+    cursor:pointer;
+    margin: 1080px 30px;
+    visibility: hidden;
+}
+
+.apparel4-link {
+    width: 160px;
+    cursor:pointer;
+    visibility: hidden;
+
+    height: 210px;
+    margin: 1080px 210px;
+}
+
+.grey-under {
+    font-size: 14px;
+    margin: 1300px 10px;
+    width: 195px;
+    text-align: center;
+}
+
+.baag-under {
+    font-size: 14px;
+    margin: 1310px 192px;
+    width: 195px;
+    text-align: center;
+}
+
+.grey-bucks {
+    font-size: 16px;
+    margin: 1340px 90px;
+    
+    color: #DD8560;
+}
+
+.baag-bucks {
+    font-size: 16px;
+    margin: 1340px 270px;
+    
+    color: #DD8560;
+}
+
+.explore {
+    font-size: 24px;
+    margin: 1400px 115px;
+}
+
+.famous {
+    width: 380px;
+    height: 180px;
+    margin: 1450px 5px;
+    border: 1px dotted rgba(0, 0, 0, 0.5);
+}
+
+.collection {
+    text-transform: uppercase;
+    font-size: 24px;
+    width: 390px;
+    text-align: center;
+    margin: 1660px 0;
+}
+
+.tenth-coll {
+    width: 390px;
+    height: 230px;
+    margin: 1720px 0;
+}
+
+.collection-text {
+    margin: 1800px 235px;
+    color: white;
+    font-size: 42px;
+    font-weight: bolder;
+}
+
+.collection-under {
+    margin: 1850px 250px;
+    color: white;
+    font-size: 24px;
+}
+
+.autumn {
+    width: 300px;
+    height: 300px;
+    margin: 2000px 50px;
+
+}
+
+.autumn-text {
+    margin: 2010px 180px;
+    font-weight: 700;
+    font-size: 42px;
+    color: #333333;
+}
+
+.under-text {
+    margin: 2060px 160px;
+    font-weight: 400;
+    letter-spacing: 7px;
+    font-size: 20px;
+    color: #333333;
+}
+
+.water {
+    width: 390px;
+    margin: 2360px 0;
+    height: 180px;
+}
+
+.btn-1 {
+    width: 20px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #333333;
+    margin: 662px 150px;
+    cursor: pointer;
+}
+
+.btn-1:hover {
+    background-color: black;
+}
+
+.btn-2 {
+    width: 20px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #333333;
+    margin: 662px 180px;
+    cursor: pointer;
+}
+
+.btn-2:hover {
+    background-color: black;
+}
+
+.btn-3 {
+    width: 20px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #333333;
+    margin: 662px 210px;
+    cursor: pointer;
+}
+
+.btn-3:hover {
+    background-color: black;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: -20px 355px;
+    color: #fff;
+    visibility: hidden;
+
+}
+
+.counter {
+    margin: -2px 7px;
+}
+
+.new-1:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.apparel:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.dress:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.tshirt:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.bag:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.apparel-under {
+    font-size: 14px;
+    margin: 1010px 20px;
+    width: 181px;
+    text-align: center;
+    visibility: hidden;
+}
+
+.apparel2-under {
+    font-size: 14px;
+    margin: 1010px 192px;
+    width: 195px;
+    text-align: center;
+    visibility: hidden;
+}
+
+.apparel-bucks {
+    font-size: 16px;
+    margin: 1050px 90px;
+    
+    visibility: hidden;
+    color: #DD8560;
+}
+
+.apparel2-bucks {
+    font-size: 16px;
+    margin: 1050px 270px;
+    
+    visibility: hidden;
+    color: #DD8560;
+}
+
+.apparel3-under {
+    font-size: 14px;
+    margin: 1300px 25px;
+    width: 170px;
+    text-align: center;
+    visibility: hidden;
+
+}
+
+.apparel4-under {
+    font-size: 14px;
+    margin: 1310px 192px;
+    width: 195px;
+    visibility: hidden;
+
+    text-align: center;
+}
+
+.apparel3-bucks {
+    font-size: 16px;
+    margin: 1340px 90px;
+    
+    color: #DD8560;
+    visibility: hidden;
+
+}
+
+.apparel4-bucks {
+    font-size: 16px;
+    margin: 1340px 270px;
+    
+    visibility: hidden;
+
+    color: #DD8560;
+}
+
+.tranding {
+    letter-spacing: 10px;
+    margin: 2570px 0;
+    width: 390px;
+    text-align: center;
+}
+
+.trade-img {
+    width: 390px;
+    height: 500px;
+    margin: 2620px 0;
+
+}
+
+.twitter {
+
+    margin: 3170px 100px;
+}
+
+.insta {
+
+        margin: 3170px 180px;
+}
+
+.youtube {
+
+    margin: 3170px 260px;
+}
+
+.last {
+    font-size: 20px;
+    width: 390px;
+    text-align: center;
+    margin: 3250px 0;
+}
+
+.about {
+    font-size: 20px;
+    margin: 3350px 70px;
+}
+
+.contact {
+    font-size: 20px;
+    margin: 3350px 165px;
+}
+
+.blog {
+    font-size: 20px;
+    margin: 3350px 270px;
+}
+
+.lastly {
+
+    width: 390px;
+    height: 50px;
+    margin: 3400px 0;
+
+    background: #C4C4C4;
+    opacity: 0.1;
+}
+
+.end {
+    font-size: 12px;
+    color: black;
+    width: 390px;
+    font-weight: bold;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.about:hover {
+    text-decoration: underline;
+}
+
+.contact:hover {
+    text-decoration: underline;
+}
+
+.blog:hover {
+    text-decoration: underline;
+}
+
+.boy {
+    width: 390px;
+    height: 260px;
+    margin: 70px 0;
+}
+
+.blog a {
+    text-decoration: none;
+    color: black;
+}
+
+.boy-text {
+    width: 390px;
+    text-align: center;
+    margin: 350px 0;
+    font-weight: bolder;
+}
+
+.boyz-text {
+    width: 390px;
+    text-align:justify;
+    margin: 380px 0;
+    font-weight: normal;
+}
+
+.girl {
+    width: 390px;
+    height: 500px;
+    margin: 570px 0;
+}
+
+.girl-text {
+    width: 390px;
+    text-align:center;
+    margin: 1100px 0;
+    font-weight: normal;
+}
+
+.found {
+    color: #DD8560;
+}
+
+.found:hover {
+    text-decoration: line-through;
+}
+
+.ending {
+    margin: -1320px 0;
+}
