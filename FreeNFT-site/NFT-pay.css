@@ -1,0 +1,176 @@
+
+/* Functional place a bid */
+
+.functional-place {
+    width: 342px;
+    height: 440px;
+    margin: 100px 25px;
+    background: #333333;
+    border-radius: 24px;
+}
+
+
+.f1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #FCFCFC;
+    line-height: 32px;
+    background-color: transparent;
+    margin: 20px 20px;
+}
+
+.f2 {
+    color: #FCFCFC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    margin: 50px 20px;
+    line-height: 22px;
+    background-color: transparent;
+}
+
+.uli {
+    margin: 140px 20px;
+    background-color: transparent;
+}
+
+.ul1 {
+    margin: 165px 240px;
+    background-color: transparent;
+}
+
+.cap {
+    color: #FCFCFC;
+    font-style: normal;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.low {
+    color: #FCFCFC;
+    font-style: normal;
+    font-weight: normal;
+    background-color: transparent;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.low1 {
+    color: #FCFCFC;
+    font-style: normal;
+    font-weight: normal;
+    background-color: transparent;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.bid1 {
+    background: linear-gradient(114.44deg, #0038F5 0%, #9F03FF 100%);
+    border-radius: 8px;
+    border: none;
+    width: 300px;
+    height: 56px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FCFCFC;
+    text-align: center;
+
+    margin: 300px 20px;
+}
+
+.under-bit1 {
+    border: 2px solid #9F03FF;
+    border-radius: 8px;
+    width: 300px;
+    height: 56px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FCFCFC;
+    text-align: center;
+
+    margin: 370px 20px;
+
+}
+
+.connect-wallet {
+    width: 342px;
+    height: 440px;
+
+    margin: 600px 25px;
+    background: #222222;
+    border-radius: 24px;
+}
+
+.connecticut {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 40px 30px;
+
+    line-height: 32px;
+    color: #F8F8F8;
+    background-color: transparent;
+}
+
+.serveses-part {
+    font-style: normal;
+    color: #F8F8F8;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 250px 30px;
+    background-color: transparent;
+    width: 280px;
+    text-align: center;
+}
+
+.more-more {
+    font-style: normal;
+    color: #F8F8F8;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    background-color: transparent;
+    margin: 400px 70px;
+
+}
+
+.walllet {
+    width: 158.9px;
+    height: 158.9px;
+    background-color: transparent;
+    margin: 80px 90px;
+}
+
+.btn-con {
+    background: linear-gradient(114.44deg, #0038F5 0%, #9F03FF 100%);
+    border-radius: 8px;
+    border: none;
+    width: 250px;
+    height: 56px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FCFCFC;
+    text-align: center;
+
+    margin: 330px 45px;
+}
+
+.cross {
+    width: 30px;
+    margin: 40px 280px;
+    height: 30px;
+    background-color: transparent;
+}

@@ -1,0 +1,416 @@
+
+/* Fonts */
+
+@font-face {
+    font-family: 'Hubballi' ;
+    src: url(./font/Hubballi/Hubballi-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Alconica';
+    src: url(./font/Alconica/Aclonica-Regular.ttf);
+}
+
+/* Settings */
+
+.abc {position: absolute;}
+.Hubballi {font-family: "Hubballi";}
+.Alconica {font-family: 'Alconica';}
+
+/* Main */
+
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 390px;
+}
+
+.brand {
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 24px;
+    line-height: 22px;
+    text-align: left;
+    margin: 35px 90px;
+    color: #4C4F4D;
+    width: 30px;
+    height: 20px;
+
+}
+
+.brandicon {
+
+    margin: 20px 20px;
+}
+
+.place {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 100px 45px;
+    color: #4C4F4D;
+}
+
+.geolocation {
+    width: 20px;
+    height: 20px;
+    margin: 100px 20px;
+
+
+}
+
+.menu {
+    margin: 40px 320px;
+}
+
+.searcher {
+    width: 330px;
+    height: 51.57px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 17px;
+    border: none;
+    margin: 150px 30px;
+    
+    color: #7C7C7C;
+    background: #F2F3F2;
+    border-radius: 15px;
+}
+
+.searcher:focus {
+    border: 1px solid gray;
+}
+
+.slider {
+    width: 330px;
+    height: 150px;
+    border: none;
+    margin: 230px 30px;
+}
+
+.slide-1 {
+    width: 100%;
+    background-size: cover;
+    height: 100%;
+    border-radius: 10px;
+
+}
+
+.vegetables {
+    width: 120px;
+    height: 105px;
+    margin: 25px 15px;
+}
+
+.text-slider {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    margin: 60px 130px;
+    white-space: nowrap;
+    color: #030303;
+}
+
+.under-slider {
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 16px;
+    line-height: 18px;
+    margin: 80px 160px;
+    white-space: nowrap;
+
+
+    color: #53B175;
+}
+
+.bars1 {
+    width: 25px;
+    height: 5px;
+    border-radius: 10px;
+    border: 1px solid #53B175;
+    background: #53B175;
+    margin: 135px 140px;
+}
+
+.bars2 {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin: 135px 175px;
+
+    border: 1px solid #030303;
+    background: #030303;
+    opacity: 0.3;
+}
+
+.bars3 {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin: 135px 190px;
+
+    border: 1px solid #030303;
+    background: #030303;
+    opacity: 0.3;
+}
+
+.banana {
+    width: 90px;
+    height: 70px;
+    margin: 30px 30px;
+}
+
+.apple {
+    width: 100px;
+    height: 70px;
+    margin: 30px 30px;
+}
+
+.border {
+    width: 160px;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 450px 30px;
+}
+
+.border-2 {
+    width: 160px;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+    margin: 450px 200px;
+}
+
+.exclucive {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    white-space: nowrap;
+    color: #181725;
+    margin: 400px 30px;
+}
+
+.see {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    white-space: nowrap;
+    margin: 405px 310px;
+
+    color: #53B175;
+}
+
+.product {
+    font-size: 16px;
+    color: #181725;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    font-weight: bolder;
+    margin: 120px 0;
+    width: 160px;
+    text-align: center;
+}
+
+.about {
+
+    color: #7C7C7C;
+
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    font-weight: bold;
+    margin: 140px 0;
+    width: 160px;
+    text-align: center;
+}
+
+.price {
+    color: #181725;
+
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    font-weight: bolder;
+    margin: 170px 10px;
+    width: 160px;
+    text-align: left;
+}
+
+.product2 {
+    font-size: 16px;
+    color: #181725;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    font-weight: bolder;
+    margin: 120px 0;
+    width: 160px;
+    text-align: center;
+}
+
+.about2 {
+
+    color: #7C7C7C;
+
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    font-weight: bold;
+    margin: 140px 0;
+    width: 160px;
+    text-align: center;
+}
+
+.price2 {
+    color: #181725;
+
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    font-weight: bolder;
+    margin: 170px 10px;
+    width: 160px;
+    text-align: left;
+}
+
+.best {
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 24px;
+    line-height: 29px;
+    white-space: nowrap;
+    margin: 670px 30px;
+    color: #181725;
+}
+
+.left {
+    width: 30px;
+    height: 30px;
+    margin: 670px 290px;
+}
+
+.right {
+    width: 30px;
+    margin: 670px 330px;
+    height: 30px;
+}
+
+.paper {
+    width: 90px;
+    height: 70px;
+    margin: 30px 30px;
+}
+
+.ginger {
+    width: 90px;
+    height: 70px;
+    margin: 30px 30px;
+}
+
+.carrot {
+    width: 90px;
+    height: 70px;
+    margin: 30px 30px;
+}
+
+.tomato {
+    width: 110px;
+    height: 70px;
+    margin: 30px 25px;
+}
+
+.border-veg {
+    width: 160px;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 720px 30px;
+}
+
+.border-veg2 {
+    width: 160px;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+    margin: 720px 200px;
+}
+
+.product-veg {
+    font-size: 16px;
+    color: #181725;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    font-weight: bolder;
+    margin: 120px 0;
+    width: 160px;
+    text-align: center;
+}
+
+.about-veg {
+
+    color: #7C7C7C;
+
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    font-weight: bold;
+    margin: 140px 0;
+    width: 160px;
+    text-align: center;
+}
+
+.price-veg {
+    color: #181725;
+
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    font-weight: bolder;
+    margin: 170px 10px;
+    width: 160px;
+    text-align: left;
+}
+
+.productv2 {
+    font-size: 16px;
+    color: #181725;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    font-weight: bolder;
+    margin: 120px 0;
+    width: 160px;
+    text-align: center;
+}
+
+.aboutv2 {
+
+    color: #7C7C7C;
+
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    font-weight: bold;
+    margin: 140px 0;
+    width: 160px;
+    text-align: center;
+}
+
+.pricev2 {
+    color: #181725;
+
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    font-weight: bolder;
+    margin: 170px 10px;
+    width: 160px;
+    text-align: left;
+}
