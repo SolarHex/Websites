@@ -1,5 +1,7 @@
 /* Main */
-
+html{
+    scroll-x: none;
+}
 @font-face {
     font-family: 'Shippori';
     src: url('./fonts/Shippori/ShipporiAntiqueB1-Regular.ttf');
